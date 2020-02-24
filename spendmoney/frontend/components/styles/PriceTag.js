@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const PriceTag = styled.span`
   background: ${props => props.theme.red};
+  box-shadow: ${props => props.theme.bsxl};
   transform: rotate(3deg);
   color: white;
   font-weight: 600;
@@ -10,8 +11,8 @@ const PriceTag = styled.span`
   font-size: 3rem;
   display: inline-block;
   position: absolute;
-  top: -3px;
-  right: -3px;
+  top: 70%;
+  right: -20px;
 `;
 
 export default PriceTag;
